@@ -1,0 +1,31 @@
+body {
+  background-color: #2c2c2c;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.chart-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  color: #ffffff;
+}
+
+/* Media Queries */
+@media (max-width:400px){
+  .main-heading{
+    font-size: 30px;
+  }
+  .charts-heading{
+    font-size: 20px;
+  }
+}
